@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import HomePage from "../home/HomePage";
 import Contact from "../contact/Contact";
-import GameDetails from "../gameDetails/GameDetails";
+import GameDetails from "../gamedetails/GameDetails";
 
 function Layout() {
     return (
@@ -27,7 +27,7 @@ function Layout() {
             <Switch>
                 <Route path="/" exact component={HomePage} />
                 <Route path="/contact" component={Contact}/>
-                <Route path="/games//:id" component={GameDetails} />
+                <Route path="/game/:id" component={GameDetails} />
             </Switch>
         </Container>
         </Router> 
