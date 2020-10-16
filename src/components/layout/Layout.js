@@ -27,7 +27,7 @@ function Layout() {
             <Switch>
                 <Route path="/" exact component={HomePage} />
                 <Route path="/contact" component={Contact}/>
-                <Route path="/game/:id" component={GameDetails} />
+                <Route path="/games/:id" component={GameDetails} />
             </Switch>
         </Container>
         </Router> 

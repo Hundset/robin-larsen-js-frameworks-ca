@@ -1,0 +1,41 @@
+.card {
+    margin-top: 5%;
+
+    img {
+        margin-bottom: 2%;
+    }
+}
+
+.cardspecific {
+    margin-bottom: 10%;
+
+    .cardspecific--metrics {
+        display: flex;
+        justify-content: center;
+        border-top: solid 1px lightgrey;
+        border-bottom: solid 1px lightgrey;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.btn {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+ul {
+    padding-left: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.validationSpan {
+    color: greenyellow;
+}
