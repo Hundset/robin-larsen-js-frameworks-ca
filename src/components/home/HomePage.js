@@ -24,7 +24,7 @@ export function HomePage() {
         const resultArray = games.filter(function(vidya) {
             const lowerCaseName = vidya.name.toLowerCase();
 
-            if (lowerCaseName.startsWith(searchVal)) {
+            if (lowerCaseName.includes(searchVal)) {
                 return true;
             }
             return false;
